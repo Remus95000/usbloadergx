@@ -383,8 +383,8 @@ int StartUpProcess::Execute(bool quickGameBoot)
 		}
 	}
 
-	if (sdhc_mode_sd)
-		editMetaArguments();
+	//if (sdhc_mode_sd)
+	//	editMetaArguments();
 
 	if (!IosLoader::IsHermesIOS() && !IosLoader::IsD2X() && !Settings.SDMode)
 	{
